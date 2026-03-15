@@ -259,10 +259,10 @@ $AERO,<tick_ms>,<roll>,<pitch>,<yaw>,<alt_m>,<lat>,<lon>,<sats>,<co_ppm>*<XOR_HE
 
 ---
 
-## 📄 License
+## License
 
 MIT License — see [LICENSE](LICENSE)
 
 ---
 
-*Built with ❤️ for avionics applications. Designed for reliability, portability, and real-time performance.*
+*Built for avionics applications. Designed for reliability, portability, and real-time performance.*
