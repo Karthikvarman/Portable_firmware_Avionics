@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/tools/ide_stubs",
+                "${workspaceFolder}/config",
+                "${workspaceFolder}/hal/include",
+                "${workspaceFolder}/sal/include",
+                "${workspaceFolder}/core/app",
+                "${workspaceFolder}/core/ekf",
+                "${workspaceFolder}/core/telemetry",
+                "${workspaceFolder}/core/control",
+                "${workspaceFolder}/core/protocol",
+                "${workspaceFolder}/platform",
+                "${workspaceFolder}/rtos/os_api",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "TARGET_ESP32_DEV_MODULE",
+                "AERO_MCU_ESP32",
+                "SIMULATION"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\core\app\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\core\app\app_tasks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\core\ekf\aero_ekf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\core\telemetry\telemetry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\core\protocol\protocol_manager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\sal\sal_sensor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\sal\drivers\lps25hb\lps25hb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\sal\drivers\sht40\sht40.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\sal\drivers\lsm6dsv\lsm6dsv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\sal\drivers\lis2mdl\lis2mdl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\sal\drivers\teseo_liv4f\teseo_liv4f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\sal\drivers\tgs5141\tgs5141.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\hal\esp32\esp32_adc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\hal\esp32\esp32_flash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\hal\esp32\esp32_gpio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\hal\esp32\esp32_i2c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\hal\esp32\esp32_spi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\hal\esp32\esp32_timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\hal\esp32\esp32_uart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\platform\esp32\esp32_platform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\atkva\OneDrive\Desktop\PF-1\rtos\os_api\os_api_freertos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\atkva\OneDrive\Desktop\PF-1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{789D7E3A-3C3C-3DDC-B672-20B49C122D78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

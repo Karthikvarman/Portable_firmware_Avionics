@@ -1,0 +1,5 @@
+C:/Users/atkva/OneDrive/Desktop/PF-1/build_ESP32_DEVKITV1/CMakeFiles/AeroFirmware.elf.dir
+C:/Users/atkva/OneDrive/Desktop/PF-1/build_ESP32_DEVKITV1/CMakeFiles/flash.dir
+C:/Users/atkva/OneDrive/Desktop/PF-1/build_ESP32_DEVKITV1/CMakeFiles/flash_esp32.dir
+C:/Users/atkva/OneDrive/Desktop/PF-1/build_ESP32_DEVKITV1/CMakeFiles/ALL_BUILD.dir
+C:/Users/atkva/OneDrive/Desktop/PF-1/build_ESP32_DEVKITV1/CMakeFiles/ZERO_CHECK.dir

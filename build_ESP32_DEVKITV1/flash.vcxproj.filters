@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\atkva\OneDrive\Desktop\PF-1\build_ESP32_DEVKITV1\CMakeFiles\6419c44992bcb423f758949870507946\flash.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\atkva\OneDrive\Desktop\PF-1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\atkva\OneDrive\Desktop\PF-1\build_ESP32_DEVKITV1\CMakeFiles\flash" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{96A5C7C0-627A-30D6-A0CB-765E2CE966EC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

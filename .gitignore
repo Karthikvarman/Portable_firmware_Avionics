@@ -1,0 +1,79 @@
+# ============================================================
+# AeroFirmware .gitignore
+# ============================================================
+
+# Build output directories
+build/stm32h7/
+build/stm32f4/
+build/stm32f7/
+build/stm32l4/
+build/stm32l0/
+build/esp32/
+build/esp8266/
+build/cmake_install.cmake
+build/CMakeCache.txt
+build/CMakeFiles/
+
+# Compiled firmware binaries
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# ESP-IDF build
+build/
+sdkconfig
+sdkconfig.old
+.idf_tools/
+managed_components/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+.pytest_cache/
+
+# Firmware uploads (runtime)
+firmware_uploads/
+
+# IDE / Editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+aero_log.csv
+*.csv
+build_log.txt
+cmake_log.txt
+build_err.txt
+
+# Test files
+test_*.py
+verify.bin
+*_broken.py
+
+# Temporary files
+release/
+.vscode_settings.json
+
+# Vendor / third-party (place your own copies here)
+vendor/FreeRTOS/
+vendor/STM32_HAL/
+vendor/CMSIS/
+vendor/ESP_IDF/

@@ -1,0 +1,3 @@
+#ifndef STM32H7XX_LL_EXTI_H
+#define STM32H7XX_LL_EXTI_H
+#endif
