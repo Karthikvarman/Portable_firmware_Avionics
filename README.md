@@ -1,4 +1,4 @@
-# AeroFirmware — Portable Real-Time Avionics Firmware
+# Portable Real-Time Avionics Firmware
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 [![Target](https://img.shields.io/badge/MCU-STM32H7%20%7C%20F4%20%7C%20F7%20%7C%20L0%20%7C%20L4%20%7C%20ESP32%20%7C%20ESP8266-green)]()
@@ -8,7 +8,7 @@ A **complete, production-grade, portable real-time avionics firmware** designed 
 
 ---
 
-## ✈️ Features
+## Features
 
 | Feature | Details |
 |---|---|
@@ -23,7 +23,7 @@ A **complete, production-grade, portable real-time avionics firmware** designed 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 PF-1/
@@ -119,7 +119,7 @@ PF-1/
 
 ---
 
-## 🚀 Build Instructions
+## Build Instructions
 
 ### Prerequisites
 - **ARM GCC Toolchain** ≥ 13.x: https://developer.arm.com/downloads
@@ -161,7 +161,7 @@ idf.py flash monitor
 
 ---
 
-## 🖥️ Ground Station UI
+## Ground Station UI
 
 ### Web UI (Standalone — no server required)
 Simply open `ui/index.html` in Chrome/Edge:
@@ -188,7 +188,7 @@ python tools/uart_rx.py --port COM3 --baud 921600 --csv flight_log.csv
 
 ---
 
-## 🧠 EKF State Vector (15 States)
+## EKF State Vector (15 States)
 
 | # | State | Symbol | Units |
 |---|---|---|---|
@@ -204,7 +204,7 @@ python tools/uart_rx.py --port COM3 --baud 921600 --csv flight_log.csv
 
 ---
 
-## 📡 Telemetry Frame Format
+## Telemetry Frame Format
 
 ### Binary (default, 20 Hz)
 ```
@@ -219,7 +219,7 @@ $AERO,<tick_ms>,<roll>,<pitch>,<yaw>,<alt_m>,<lat>,<lon>,<sats>,<co_ppm>*<XOR_HE
 
 ---
 
-## ⚙️ Configuration (`config/aero_config.h`)
+## Configuration (`config/aero_config.h`)
 
 ```c
 // Select target MCU (only one)
@@ -245,7 +245,7 @@ $AERO,<tick_ms>,<roll>,<pitch>,<yaw>,<alt_m>,<lat>,<lon>,<sats>,<co_ppm>*<XOR_HE
 
 ---
 
-## 📋 FreeRTOS Tasks
+## FreeRTOS Tasks
 
 | Task | Priority | Period | Function |
 |---|---|---|---|
